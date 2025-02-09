@@ -52,7 +52,7 @@ st.markdown(":heart_eyes: :rose: :sparkles: :heart_eyes:", unsafe_allow_html=Tru
 
 # Display an image with some custom styling
 image_path = "bond.jpeg"  # Change to the path of the image
-st.image(image_path, caption="Together Forever 💑", use_column_width=True)
+st.image(image_path, caption="Together Forever 💑", use_container_width=True)
 
 # Footer message with personalized text
 st.markdown('<p class="footer">With all my love, [pucchu] 💖</p>', unsafe_allow_html=True)
